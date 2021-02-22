@@ -1,0 +1,49 @@
+C:\Users\ferna\Source\Repos\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe.config
+C:\Users\ferna\Source\Repos\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe
+C:\Users\ferna\Source\Repos\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\ferna\Source\Repos\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csprojAssemblyReference.cache
+C:\Users\ferna\Source\Repos\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Source\Repos\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
+C:\Users\ferna\Source\Repos\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\Marcelo Junior\source\repos\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe.config
+C:\Users\Marcelo Junior\source\repos\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe
+C:\Users\Marcelo Junior\source\repos\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\Marcelo Junior\source\repos\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csprojAssemblyReference.cache
+C:\Users\Marcelo Junior\source\repos\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Junior\source\repos\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
+C:\Users\Marcelo Junior\source\repos\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\Thiago\Desktop\PROJETO COMPLETO\DirecionamentoCovid hora16_00 (1)\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe.config
+C:\Users\Thiago\Desktop\PROJETO COMPLETO\DirecionamentoCovid hora16_00 (1)\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe
+C:\Users\Thiago\Desktop\PROJETO COMPLETO\DirecionamentoCovid hora16_00 (1)\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\Thiago\Desktop\PROJETO COMPLETO\DirecionamentoCovid hora16_00 (1)\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csprojAssemblyReference.cache
+C:\Users\Thiago\Desktop\PROJETO COMPLETO\DirecionamentoCovid hora16_00 (1)\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
+C:\Users\Thiago\Desktop\PROJETO COMPLETO\DirecionamentoCovid hora16_00 (1)\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
+C:\Users\Thiago\Desktop\PROJETO COMPLETO\DirecionamentoCovid hora16_00 (1)\DirecionamentoCovid hora15_40\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe.config
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csprojAssemblyReference.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe.config
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csprojAssemblyReference.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
+C:\Users\ferna\OneDrive\Área de Trabalho\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\Thiago\Desktop\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe.config
+C:\Users\Thiago\Desktop\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe
+C:\Users\Thiago\Desktop\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\Thiago\Desktop\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csprojAssemblyReference.cache
+C:\Users\Thiago\Desktop\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
+C:\Users\Thiago\Desktop\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
+C:\Users\Thiago\Desktop\FINALMENTE ACABOU PQP 19_30\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe.config
+C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe
+C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csprojAssemblyReference.cache
+C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
+C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
+C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb
