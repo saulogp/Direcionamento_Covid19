@@ -47,3 +47,10 @@ C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debu
 C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
 C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
 C:\Users\55169\Desktop\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\55169\Source\Repos\Direcionamento_Covid19_saulo\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe.config
+C:\Users\55169\Source\Repos\Direcionamento_Covid19_saulo\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.exe
+C:\Users\55169\Source\Repos\Direcionamento_Covid19_saulo\DirecionamentoCovid\DirecionamentoCovid-Template\bin\Debug\DirecionamentoCovid-Template.pdb
+C:\Users\55169\Source\Repos\Direcionamento_Covid19_saulo\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csprojAssemblyReference.cache
+C:\Users\55169\Source\Repos\Direcionamento_Covid19_saulo\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid.csproj.CoreCompileInputs.cache
+C:\Users\55169\Source\Repos\Direcionamento_Covid19_saulo\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.exe
+C:\Users\55169\Source\Repos\Direcionamento_Covid19_saulo\DirecionamentoCovid\DirecionamentoCovid-Template\obj\Debug\DirecionamentoCovid-Template.pdb

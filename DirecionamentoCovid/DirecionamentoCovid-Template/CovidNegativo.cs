@@ -8,5 +8,6 @@ namespace DirecionamentoCovid_Template
 {
 	class CovidNegativo
 	{
+		// Para que essas classe? 
 	}
 }

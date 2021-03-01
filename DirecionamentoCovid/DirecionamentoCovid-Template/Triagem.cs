@@ -20,7 +20,7 @@ namespace DirecionamentoCovid_Template
 			pessoa.Nome = TratamentoString();	
 			do
 			{
-				
+				//Aonde está garantido que a Pessoa realmente é preferencial?? (Idade >=60)
 				Console.Write("Data de nascimento do paciente(dd/mm/aaaa): ");
 				if (DateTime.TryParse(Console.ReadLine(), out dataNascimento))
                 {
@@ -28,7 +28,7 @@ namespace DirecionamentoCovid_Template
 					pessoa.DataNascimento = dataNascimento;
                 }
 				pessoa.Idade = ConverteIdade(pessoa.DataNascimento);
-
+				// Não faz controle da idade! Confia em Brasileiro!? 
 				
 
 			}
@@ -52,7 +52,7 @@ namespace DirecionamentoCovid_Template
 			pessoa.TempoDeSintomas = TratamentoInt();
 			Console.Write("Tem comorbidade?(s/n): ");
 			string comorbidade;
-			do
+			do  
 			{
 				comorbidade = TratamentoString();
 				if (comorbidade.ToLower() == "s")
@@ -98,6 +98,7 @@ namespace DirecionamentoCovid_Template
 			int dataAtual = int.Parse(DateTime.Today.ToString("yyyy"));
 			int idade = dataAtual - dataNascimento;
 			return idade;
+			//Não controlaram a idade dos preferenciais??? Porque? Confia no Usuário? Brasileiro ainda?
 		}
 
 		static public string TratamentoString()

@@ -37,6 +37,7 @@ namespace DirecionamentoCovid_Template
 				resultadoExame = "Positivo Assintomatico";
 			}
 			else resultadoExame = "Negativo";
+			// E se ainda não fez exame?
 
 
 

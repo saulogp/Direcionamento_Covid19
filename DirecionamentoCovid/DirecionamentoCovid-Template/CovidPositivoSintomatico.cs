@@ -5,7 +5,7 @@
        
         public CovidPositivoSintomatico()
         {
-
+            // Para que essas classe? 
            
         }
     }

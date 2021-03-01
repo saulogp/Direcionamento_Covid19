@@ -16,7 +16,7 @@ namespace DirecionamentoCovid_Template
 			LeitosInternacao LInternacao = new LeitosInternacao { Leitos = new Pessoa[10] };
 			Fila Negativos = new Fila();
 			Fila Assintomaticos = new Fila();
-			int senhaFilaEspera = 1, count = 0;
+			int senhaFilaEspera = 1, count = 0; //Uma senha para as duas filas??? ok- entendemos
 
 			int op;
 
@@ -120,7 +120,7 @@ namespace DirecionamentoCovid_Template
 			bool controle;
 			do
 			{
-				controle = false;
+				controle = false;  //Controle de leitura do usuário
 				if (int.TryParse(Console.ReadLine(), out tipoAtendimento))
 				{
 					controle = true;
@@ -132,7 +132,7 @@ namespace DirecionamentoCovid_Template
 			while (controle == false || (tipoAtendimento < 1 || tipoAtendimento > 2));
 
 			SenhaEmEspera Senha = new SenhaEmEspera { Senha = s };
-			if (tipoAtendimento == 1)
+			if (tipoAtendimento == 1) //OK - Entendemos
 			{
 				fp.Push(Senha);
 			}
@@ -148,7 +148,7 @@ namespace DirecionamentoCovid_Template
 		static public void RealizarTriagem(CovidPositivoSintomatico fSintomatico, FilaSenha fc, FilaSenha fp, ref int count, Fila Negativo, Fila Assintomatico)
 		{
 
-			int senhaAtual = ChamarSenha(fc, fp, ref count);
+			int senhaAtual = ChamarSenha(fc, fp, ref count); //Controle de Proporção das Filas - OK
 			if (senhaAtual != -1)
 			{
 				Pessoa pessoa = new Pessoa();
@@ -172,7 +172,7 @@ namespace DirecionamentoCovid_Template
 					}
 				}
 
-				else
+				else   //Só se a Pessoa estiver SINTOMÁTICO!!!!
 				{
 					Console.WriteLine("Arquivado");
 					//fSintomatico.Push(pessoa);
@@ -189,7 +189,7 @@ namespace DirecionamentoCovid_Template
 
 
 			}
-			else
+			else                                      //estam??? Não!
 				Console.WriteLine("As filas de espera estam vazias!");
 		}
 
@@ -197,7 +197,7 @@ namespace DirecionamentoCovid_Template
 		{
 			int senhaAtual = 0;
 
-			if (count < 2) //tratamento fila preferencial
+			if (count < 2) //tratamento fila preferencial //Controle 2 para 1
 			{
 				if (!fp.Vazio())
 				{
@@ -230,7 +230,8 @@ namespace DirecionamentoCovid_Template
 		}
 
 		static public Pessoa ClassificarPrioridadePaciente(Pessoa pessoa)
-		{
+		{   // Acima de Nove ele já morreu, ou não tem tanto problema (baixa) e a saturação não influencia?
+			// OK - Fizeram uma classificação automática
 			if (pessoa.TempoDeSintomas <= 9 && pessoa.TempoDeSintomas >= 0)
 			{
 				pessoa.PrioridadeInternacao = "Alta";
@@ -248,6 +249,9 @@ namespace DirecionamentoCovid_Template
 
 		static public void TransferirParaFilaTratamento(CovidPositivoSintomatico FSintomatico, Pessoa pessoa)
 		{
+			// Fila de Tratamento é uma fila intermediária entre Fila de Sintomático e de Internação???
+			// Não, não é! Gerou dúvida. Chama de Fila Tratamento e na verdade é Fila Sintomático!!!!
+			// 
 			if (pessoa.Idade >= 60 && pessoa.Comorbidade && pessoa.PrioridadeInternacao == "Alta")
 			{
 				FSintomatico.Push(pessoa);
@@ -271,7 +275,7 @@ namespace DirecionamentoCovid_Template
 			if (FSintomatico.Head != null)
 			{
 				Console.WriteLine("\n>>>>Proximo da fila de internação<<<<\n");
-				Console.WriteLine(FSintomatico.Head);
+				Console.WriteLine(FSintomatico.Head); //Segue Teoria Completa de Fila
 				Console.Write("\nDeseja internar o paciente?");
 				string resposta = Console.ReadLine();
 				if (resposta.ToLower() == "s")
@@ -295,7 +299,7 @@ namespace DirecionamentoCovid_Template
 						numeroLeito = int.Parse(Console.ReadLine());
 
 						LInternacao.Leitos[numeroLeito] = FSintomatico.Head;
-						FSintomatico.Pop();
+						FSintomatico.Pop();  //Retira da Fila
 
 						int numEspaco = 0;
 						for (int i = 0; i < LInternacao.Leitos.Length; i++)
@@ -311,7 +315,7 @@ namespace DirecionamentoCovid_Template
 								vet[j] = LInternacao.Leitos[i];
 								j++;
 							}
-						}
+						}  // Termina de Internar e Grava
 						WriteFileCSV(null, vet, "Leitos", "Arquivo Leitos");
 
 						Console.WriteLine("\n>>>>>FILA DE INTERNAÇÃO");
@@ -330,10 +334,15 @@ namespace DirecionamentoCovid_Template
 		static public void RealizarAlta(LeitosInternacao LInternacao)
 		{
 			bool taVazio = true;
+			// Para dar alta precisa passar por todos leitos
+			//  Vocês comentaram isso na apresentação
+			// Sugestão: 
+			// Poderia perguntar direto qual leito receberia alta
+			// Imaginem apenas 1 paciente para a alta...
 
 			for (int i = 0; i < LInternacao.Leitos.Length; i++)
 			{
-				if (LInternacao.Leitos[i] != null)
+				if (LInternacao.Leitos[i] != null)// Controle de Leito !Vazio
 				{
 					Console.WriteLine("Paciente - Nome: " + LInternacao.Leitos[i].Nome + " CPF: " + LInternacao.Leitos[i].Cpf);
 					Console.Write("\nDeseja dar alta ao paciente? S/N: ");
@@ -356,9 +365,14 @@ namespace DirecionamentoCovid_Template
 		}
 		static int ImprimeCSV(string file_name, string header)
 		{
+			//Caminho dos arquivos deu problema grave!!!
+
 			string linha = "";
 			string[] linhaseparada = null;
 			string file_path = "C:\\Users\\55169\\Desktop\\DirecionamentoCovid\\arquivoscovid\\" + file_name + ".csv";
+			// Se eu rodar na minha máquina vai dar erro?
+			// SIMMMMMM
+			// Sugestão: Deveria ter essa informação extraida do caminho da própria aplicação
 			StreamReader reader = null;
 			try
 			{
@@ -405,6 +419,7 @@ namespace DirecionamentoCovid_Template
 			try
 			{
 				string file_path = "C:\\Users\\55169\\Desktop\\DirecionamentoCovid\\arquivoscovid\\" + file_name + ".csv";
+				//Mesma sugestão do método anterior de Leitura de Arquivo
 
 				StreamWriter arq = File.CreateText(file_path); //criando arquivo
 
@@ -434,7 +449,7 @@ namespace DirecionamentoCovid_Template
 			{
 				text += p.Nome + "," + p.Idade + ",\n";
 			}
-			return text;
+			return text;  //Cria uma string para gravar no arquivo
 		}
 
 
